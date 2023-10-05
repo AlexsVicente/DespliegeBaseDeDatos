@@ -1,0 +1,23 @@
+//Comandos
+
+PASO 1--Actualización del Sistema Operativo.--
+
+	sudo apt update && sudo apt upgrade
+
+PASO 2--Instalación del MYSQL.
+
+	sudo apt install mysql-server
+
+PASO 3--Colocar contraseña para el root del SO.
+
+	sudo su
+PASO 4--Aplicando seguridad al MYSQL.
+
+	sudo mysql_secure_installation
+
+PASO 5--Accedemos al MYSQL
+
+	sudo mysql -u root
+
+PASO 6--Accedemos con contraseña al root
+	sudo mysql -u root -p
